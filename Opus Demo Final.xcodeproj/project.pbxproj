@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E48B84D18514A468C36AC1 /* libPods-Opus Demo Final.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E4D137656D175E898FD3A5 /* libPods-Opus Demo Final.a */; };
+		10E9892CAEE340EC959673DA /* libPods-Opus Demo FinalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49DCD7E42BC04F9257F8A6C /* libPods-Opus Demo FinalUITests.a */; };
+		48AEBA371F088FB70054570A /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 48AEBA351F088FB70054570A /* TPCircularBuffer.c */; };
+		50DB830936D13195C8829F50 /* libPods-Opus Demo FinalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4823B6DCFF7868219F9CD4E /* libPods-Opus Demo FinalTests.a */; };
+		883882641EFD388E000250B6 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 883882611EFD388E000250B6 /* GCDAsyncSocket.m */; };
+		883882651EFD388E000250B6 /* TCPSocketChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 883882631EFD388E000250B6 /* TCPSocketChat.m */; };
+		884537CD1EE926B2003A9064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884537CC1EE926B2003A9064 /* main.m */; };
+		884537D01EE926B3003A9064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 884537CF1EE926B3003A9064 /* AppDelegate.m */; };
+		884537D31EE926B3003A9064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884537D21EE926B3003A9064 /* ViewController.m */; };
+		884537D61EE926B3003A9064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884537D41EE926B3003A9064 /* Main.storyboard */; };
+		884537D81EE926B3003A9064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884537D71EE926B3003A9064 /* Assets.xcassets */; };
+		884537DB1EE926B3003A9064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884537D91EE926B3003A9064 /* LaunchScreen.storyboard */; };
+		884537E61EE926B3003A9064 /* Opus_Demo_FinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884537E51EE926B3003A9064 /* Opus_Demo_FinalTests.m */; };
+		884537F11EE926B3003A9064 /* Opus_Demo_FinalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 884537F01EE926B3003A9064 /* Opus_Demo_FinalUITests.m */; };
+		884538041EE92B99003A9064 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884538031EE92B99003A9064 /* AudioToolbox.framework */; };
+		8845380B1EE93630003A9064 /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 884538061EE93630003A9064 /* libopus.a */; };
+		884538131EE93650003A9064 /* CSIOpusEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8845380E1EE93650003A9064 /* CSIOpusEncoder.m */; };
+		884538141EE93650003A9064 /* CSIOpusDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 884538101EE93650003A9064 /* CSIOpusDecoder.m */; };
+		884538151EE93650003A9064 /* CSIDataQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 884538121EE93650003A9064 /* CSIDataQueue.c */; };
+		884538181EE94AE2003A9064 /* AudioProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 884538171EE94AE2003A9064 /* AudioProcessor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884537E21EE926B3003A9064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884537C01EE926B2003A9064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884537C71EE926B2003A9064;
+			remoteInfo = "Opus Demo Final";
+		};
+		884537ED1EE926B3003A9064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884537C01EE926B2003A9064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884537C71EE926B2003A9064;
+			remoteInfo = "Opus Demo Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038FD701D03F30BA17498034 /* Pods-Opus Demo FinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opus Demo FinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Opus Demo FinalTests/Pods-Opus Demo FinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		18B2C3CDBFA62D25F209FC9A /* Pods-Opus Demo Final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opus Demo Final.release.xcconfig"; path = "Pods/Target Support Files/Pods-Opus Demo Final/Pods-Opus Demo Final.release.xcconfig"; sourceTree = "<group>"; };
+		20843164C12D65BCC345541A /* Pods-Opus Demo FinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opus Demo FinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Opus Demo FinalTests/Pods-Opus Demo FinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48AEBA351F088FB70054570A /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		48AEBA361F088FB70054570A /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		5B450399FCBA830A6C3BAD85 /* Pods-Opus Demo FinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opus Demo FinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Opus Demo FinalUITests/Pods-Opus Demo FinalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		883882601EFD388E000250B6 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		883882611EFD388E000250B6 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		883882621EFD388E000250B6 /* TCPSocketChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPSocketChat.h; sourceTree = "<group>"; };
+		883882631EFD388E000250B6 /* TCPSocketChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPSocketChat.m; sourceTree = "<group>"; };
+		884537C81EE926B2003A9064 /* Opus Demo Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opus Demo Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884537CC1EE926B2003A9064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884537CE1EE926B2003A9064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		884537CF1EE926B3003A9064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		884537D11EE926B3003A9064 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		884537D21EE926B3003A9064 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		884537D51EE926B3003A9064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		884537D71EE926B3003A9064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884537DA1EE926B3003A9064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884537DC1EE926B3003A9064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884537E11EE926B3003A9064 /* Opus Demo FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Opus Demo FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884537E51EE926B3003A9064 /* Opus_Demo_FinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Opus_Demo_FinalTests.m; sourceTree = "<group>"; };
+		884537E71EE926B3003A9064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884537EC1EE926B3003A9064 /* Opus Demo FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Opus Demo FinalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884537F01EE926B3003A9064 /* Opus_Demo_FinalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Opus_Demo_FinalUITests.m; sourceTree = "<group>"; };
+		884537F21EE926B3003A9064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884538031EE92B99003A9064 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		884538061EE93630003A9064 /* libopus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopus.a; sourceTree = "<group>"; };
+		884538071EE93630003A9064 /* opus_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_defines.h; sourceTree = "<group>"; };
+		884538081EE93630003A9064 /* opus_multistream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_multistream.h; sourceTree = "<group>"; };
+		884538091EE93630003A9064 /* opus_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus_types.h; sourceTree = "<group>"; };
+		8845380A1EE93630003A9064 /* opus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opus.h; sourceTree = "<group>"; };
+		8845380D1EE93650003A9064 /* CSIOpusEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIOpusEncoder.h; sourceTree = "<group>"; };
+		8845380E1EE93650003A9064 /* CSIOpusEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSIOpusEncoder.m; sourceTree = "<group>"; };
+		8845380F1EE93650003A9064 /* CSIOpusDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIOpusDecoder.h; sourceTree = "<group>"; };
+		884538101EE93650003A9064 /* CSIOpusDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSIOpusDecoder.m; sourceTree = "<group>"; };
+		884538111EE93650003A9064 /* CSIDataQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSIDataQueue.h; sourceTree = "<group>"; };
+		884538121EE93650003A9064 /* CSIDataQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CSIDataQueue.c; sourceTree = "<group>"; };
+		884538161EE94AE2003A9064 /* AudioProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioProcessor.h; sourceTree = "<group>"; };
+		884538171EE94AE2003A9064 /* AudioProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioProcessor.m; sourceTree = "<group>"; };
+		A2E4D137656D175E898FD3A5 /* libPods-Opus Demo Final.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opus Demo Final.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49DCD7E42BC04F9257F8A6C /* libPods-Opus Demo FinalUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opus Demo FinalUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4823B6DCFF7868219F9CD4E /* libPods-Opus Demo FinalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Opus Demo FinalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB9EF9BFDFF965170086B65 /* Pods-Opus Demo Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opus Demo Final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Opus Demo Final/Pods-Opus Demo Final.debug.xcconfig"; sourceTree = "<group>"; };
+		F62C3B556ED3F993FAE7AF2B /* Pods-Opus Demo FinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Opus Demo FinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Opus Demo FinalUITests/Pods-Opus Demo FinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884537C51EE926B2003A9064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8845380B1EE93630003A9064 /* libopus.a in Frameworks */,
+				884538041EE92B99003A9064 /* AudioToolbox.framework in Frameworks */,
+				00E48B84D18514A468C36AC1 /* libPods-Opus Demo Final.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884537DE1EE926B3003A9064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DB830936D13195C8829F50 /* libPods-Opus Demo FinalTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884537E91EE926B3003A9064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E9892CAEE340EC959673DA /* libPods-Opus Demo FinalUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48AEBA381F088FBE0054570A /* Circular Buffer */ = {
+			isa = PBXGroup;
+			children = (
+				48AEBA361F088FB70054570A /* TPCircularBuffer.h */,
+				48AEBA351F088FB70054570A /* TPCircularBuffer.c */,
+			);
+			name = "Circular Buffer";
+			sourceTree = "<group>";
+		};
+		8838825F1EFD3888000250B6 /* Socket Classes */ = {
+			isa = PBXGroup;
+			children = (
+				883882601EFD388E000250B6 /* GCDAsyncSocket.h */,
+				883882611EFD388E000250B6 /* GCDAsyncSocket.m */,
+				883882621EFD388E000250B6 /* TCPSocketChat.h */,
+				883882631EFD388E000250B6 /* TCPSocketChat.m */,
+			);
+			name = "Socket Classes";
+			sourceTree = "<group>";
+		};
+		884537BF1EE926B2003A9064 = {
+			isa = PBXGroup;
+			children = (
+				884537CA1EE926B2003A9064 /* Opus Demo Final */,
+				884537E41EE926B3003A9064 /* Opus Demo FinalTests */,
+				884537EF1EE926B3003A9064 /* Opus Demo FinalUITests */,
+				884537C91EE926B2003A9064 /* Products */,
+				884538021EE92B99003A9064 /* Frameworks */,
+				98805102A6C8F766C6075001 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		884537C91EE926B2003A9064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884537C81EE926B2003A9064 /* Opus Demo Final.app */,
+				884537E11EE926B3003A9064 /* Opus Demo FinalTests.xctest */,
+				884537EC1EE926B3003A9064 /* Opus Demo FinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884537CA1EE926B2003A9064 /* Opus Demo Final */ = {
+			isa = PBXGroup;
+			children = (
+				48AEBA381F088FBE0054570A /* Circular Buffer */,
+				8838825F1EFD3888000250B6 /* Socket Classes */,
+				884538051EE93627003A9064 /* opus */,
+				884538191EE94AE4003A9064 /* Audio Processor */,
+				8845380C1EE9363F003A9064 /* Encode Decode Classes */,
+				884537CE1EE926B2003A9064 /* AppDelegate.h */,
+				884537CF1EE926B3003A9064 /* AppDelegate.m */,
+				884537D11EE926B3003A9064 /* ViewController.h */,
+				884537D21EE926B3003A9064 /* ViewController.m */,
+				884537D41EE926B3003A9064 /* Main.storyboard */,
+				884537D71EE926B3003A9064 /* Assets.xcassets */,
+				884537D91EE926B3003A9064 /* LaunchScreen.storyboard */,
+				884537DC1EE926B3003A9064 /* Info.plist */,
+				884537CB1EE926B2003A9064 /* Supporting Files */,
+			);
+			path = "Opus Demo Final";
+			sourceTree = "<group>";
+		};
+		884537CB1EE926B2003A9064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884537CC1EE926B2003A9064 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		884537E41EE926B3003A9064 /* Opus Demo FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				884537E51EE926B3003A9064 /* Opus_Demo_FinalTests.m */,
+				884537E71EE926B3003A9064 /* Info.plist */,
+			);
+			path = "Opus Demo FinalTests";
+			sourceTree = "<group>";
+		};
+		884537EF1EE926B3003A9064 /* Opus Demo FinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				884537F01EE926B3003A9064 /* Opus_Demo_FinalUITests.m */,
+				884537F21EE926B3003A9064 /* Info.plist */,
+			);
+			path = "Opus Demo FinalUITests";
+			sourceTree = "<group>";
+		};
+		884538021EE92B99003A9064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884538031EE92B99003A9064 /* AudioToolbox.framework */,
+				A2E4D137656D175E898FD3A5 /* libPods-Opus Demo Final.a */,
+				C4823B6DCFF7868219F9CD4E /* libPods-Opus Demo FinalTests.a */,
+				B49DCD7E42BC04F9257F8A6C /* libPods-Opus Demo FinalUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		884538051EE93627003A9064 /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				884538061EE93630003A9064 /* libopus.a */,
+				884538071EE93630003A9064 /* opus_defines.h */,
+				884538081EE93630003A9064 /* opus_multistream.h */,
+				884538091EE93630003A9064 /* opus_types.h */,
+				8845380A1EE93630003A9064 /* opus.h */,
+			);
+			name = opus;
+			sourceTree = "<group>";
+		};
+		8845380C1EE9363F003A9064 /* Encode Decode Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8845380D1EE93650003A9064 /* CSIOpusEncoder.h */,
+				8845380E1EE93650003A9064 /* CSIOpusEncoder.m */,
+				8845380F1EE93650003A9064 /* CSIOpusDecoder.h */,
+				884538101EE93650003A9064 /* CSIOpusDecoder.m */,
+				884538111EE93650003A9064 /* CSIDataQueue.h */,
+				884538121EE93650003A9064 /* CSIDataQueue.c */,
+			);
+			name = "Encode Decode Classes";
+			sourceTree = "<group>";
+		};
+		884538191EE94AE4003A9064 /* Audio Processor */ = {
+			isa = PBXGroup;
+			children = (
+				884538161EE94AE2003A9064 /* AudioProcessor.h */,
+				884538171EE94AE2003A9064 /* AudioProcessor.m */,
+			);
+			name = "Audio Processor";
+			sourceTree = "<group>";
+		};
+		98805102A6C8F766C6075001 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB9EF9BFDFF965170086B65 /* Pods-Opus Demo Final.debug.xcconfig */,
+				18B2C3CDBFA62D25F209FC9A /* Pods-Opus Demo Final.release.xcconfig */,
+				20843164C12D65BCC345541A /* Pods-Opus Demo FinalTests.debug.xcconfig */,
+				038FD701D03F30BA17498034 /* Pods-Opus Demo FinalTests.release.xcconfig */,
+				F62C3B556ED3F993FAE7AF2B /* Pods-Opus Demo FinalUITests.debug.xcconfig */,
+				5B450399FCBA830A6C3BAD85 /* Pods-Opus Demo FinalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884537C71EE926B2003A9064 /* Opus Demo Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884537F51EE926B3003A9064 /* Build configuration list for PBXNativeTarget "Opus Demo Final" */;
+			buildPhases = (
+				17F822955C43189A73827F89 /* [CP] Check Pods Manifest.lock */,
+				884537C41EE926B2003A9064 /* Sources */,
+				884537C51EE926B2003A9064 /* Frameworks */,
+				884537C61EE926B2003A9064 /* Resources */,
+				BD211D79A9D5ABC0991793F4 /* [CP] Embed Pods Frameworks */,
+				2F823F37D32B740A9B72D7EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Opus Demo Final";
+			productName = "Opus Demo Final";
+			productReference = 884537C81EE926B2003A9064 /* Opus Demo Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884537E01EE926B3003A9064 /* Opus Demo FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884537F81EE926B3003A9064 /* Build configuration list for PBXNativeTarget "Opus Demo FinalTests" */;
+			buildPhases = (
+				94DD7196C6A2439DEE11AFF0 /* [CP] Check Pods Manifest.lock */,
+				884537DD1EE926B3003A9064 /* Sources */,
+				884537DE1EE926B3003A9064 /* Frameworks */,
+				884537DF1EE926B3003A9064 /* Resources */,
+				3DA17E7012D5562C327FFF14 /* [CP] Embed Pods Frameworks */,
+				D1E00D439F751E7F9F6AB2F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884537E31EE926B3003A9064 /* PBXTargetDependency */,
+			);
+			name = "Opus Demo FinalTests";
+			productName = "Opus Demo FinalTests";
+			productReference = 884537E11EE926B3003A9064 /* Opus Demo FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		884537EB1EE926B3003A9064 /* Opus Demo FinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884537FB1EE926B3003A9064 /* Build configuration list for PBXNativeTarget "Opus Demo FinalUITests" */;
+			buildPhases = (
+				BA9C1EB3B51131F8E6289827 /* [CP] Check Pods Manifest.lock */,
+				884537E81EE926B3003A9064 /* Sources */,
+				884537E91EE926B3003A9064 /* Frameworks */,
+				884537EA1EE926B3003A9064 /* Resources */,
+				6C164E959FFF5F871A8A71C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884537EE1EE926B3003A9064 /* PBXTargetDependency */,
+			);
+			name = "Opus Demo FinalUITests";
+			productName = "Opus Demo FinalUITests";
+			productReference = 884537EC1EE926B3003A9064 /* Opus Demo FinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884537C01EE926B2003A9064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WOS;
+				TargetAttributes = {
+					884537C71EE926B2003A9064 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P4E5P2Q492;
+						ProvisioningStyle = Manual;
+					};
+					884537E01EE926B3003A9064 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 884537C71EE926B2003A9064;
+					};
+					884537EB1EE926B3003A9064 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 228777C638;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 884537C71EE926B2003A9064;
+					};
+				};
+			};
+			buildConfigurationList = 884537C31EE926B2003A9064 /* Build configuration list for PBXProject "Opus Demo Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884537BF1EE926B2003A9064;
+			productRefGroup = 884537C91EE926B2003A9064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884537C71EE926B2003A9064 /* Opus Demo Final */,
+				884537E01EE926B3003A9064 /* Opus Demo FinalTests */,
+				884537EB1EE926B3003A9064 /* Opus Demo FinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884537C61EE926B2003A9064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884537DB1EE926B3003A9064 /* LaunchScreen.storyboard in Resources */,
+				884537D81EE926B3003A9064 /* Assets.xcassets in Resources */,
+				884537D61EE926B3003A9064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884537DF1EE926B3003A9064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884537EA1EE926B3003A9064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F822955C43189A73827F89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F823F37D32B740A9B72D7EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opus Demo Final/Pods-Opus Demo Final-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DA17E7012D5562C327FFF14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opus Demo FinalTests/Pods-Opus Demo FinalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C164E959FFF5F871A8A71C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opus Demo FinalUITests/Pods-Opus Demo FinalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DD7196C6A2439DEE11AFF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9C1EB3B51131F8E6289827 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD211D79A9D5ABC0991793F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opus Demo Final/Pods-Opus Demo Final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E00D439F751E7F9F6AB2F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Opus Demo FinalTests/Pods-Opus Demo FinalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884537C41EE926B2003A9064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883882641EFD388E000250B6 /* GCDAsyncSocket.m in Sources */,
+				884537D31EE926B3003A9064 /* ViewController.m in Sources */,
+				884538131EE93650003A9064 /* CSIOpusEncoder.m in Sources */,
+				884538141EE93650003A9064 /* CSIOpusDecoder.m in Sources */,
+				884537D01EE926B3003A9064 /* AppDelegate.m in Sources */,
+				884537CD1EE926B2003A9064 /* main.m in Sources */,
+				884538151EE93650003A9064 /* CSIDataQueue.c in Sources */,
+				883882651EFD388E000250B6 /* TCPSocketChat.m in Sources */,
+				48AEBA371F088FB70054570A /* TPCircularBuffer.c in Sources */,
+				884538181EE94AE2003A9064 /* AudioProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884537DD1EE926B3003A9064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884537E61EE926B3003A9064 /* Opus_Demo_FinalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884537E81EE926B3003A9064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884537F11EE926B3003A9064 /* Opus_Demo_FinalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884537E31EE926B3003A9064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884537C71EE926B2003A9064 /* Opus Demo Final */;
+			targetProxy = 884537E21EE926B3003A9064 /* PBXContainerItemProxy */;
+		};
+		884537EE1EE926B3003A9064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884537C71EE926B2003A9064 /* Opus Demo Final */;
+			targetProxy = 884537ED1EE926B3003A9064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		884537D41EE926B3003A9064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884537D51EE926B3003A9064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		884537D91EE926B3003A9064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884537DA1EE926B3003A9064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884537F31EE926B3003A9064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		884537F41EE926B3003A9064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884537F61EE926B3003A9064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB9EF9BFDFF965170086B65 /* Pods-Opus Demo Final.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nazrin Jahangirova (8JZ3N35PPV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nazrin Jahangirova (8JZ3N35PPV)";
+				DEVELOPMENT_TEAM = P4E5P2Q492;
+				INFOPLIST_FILE = "Opus Demo Final/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Opus\\ Demo\\ Final",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazrin.discoutUser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b8047ef-ec77-487f-81d2-24760db63219";
+				PROVISIONING_PROFILE_SPECIFIER = testStep;
+			};
+			name = Debug;
+		};
+		884537F71EE926B3003A9064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B2C3CDBFA62D25F209FC9A /* Pods-Opus Demo Final.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nazrin Jahangirova (8JZ3N35PPV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nazrin Jahangirova (8JZ3N35PPV)";
+				DEVELOPMENT_TEAM = P4E5P2Q492;
+				INFOPLIST_FILE = "Opus Demo Final/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Opus\\ Demo\\ Final",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazrin.discoutUser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8b8047ef-ec77-487f-81d2-24760db63219";
+				PROVISIONING_PROFILE_SPECIFIER = testStep;
+			};
+			name = Release;
+		};
+		884537F91EE926B3003A9064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20843164C12D65BCC345541A /* Pods-Opus Demo FinalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = "Opus Demo FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whiteorangesoftware.CNT.Opus-Demo-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opus Demo Final.app/Opus Demo Final";
+			};
+			name = Debug;
+		};
+		884537FA1EE926B3003A9064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038FD701D03F30BA17498034 /* Pods-Opus Demo FinalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = "Opus Demo FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whiteorangesoftware.CNT.Opus-Demo-FinalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Opus Demo Final.app/Opus Demo Final";
+			};
+			name = Release;
+		};
+		884537FC1EE926B3003A9064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62C3B556ED3F993FAE7AF2B /* Pods-Opus Demo FinalUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = "Opus Demo FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whiteorangesoftware.CNT.Opus-Demo-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Opus Demo Final";
+			};
+			name = Debug;
+		};
+		884537FD1EE926B3003A9064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B450399FCBA830A6C3BAD85 /* Pods-Opus Demo FinalUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 228777C638;
+				INFOPLIST_FILE = "Opus Demo FinalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whiteorangesoftware.CNT.Opus-Demo-FinalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Opus Demo Final";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884537C31EE926B2003A9064 /* Build configuration list for PBXProject "Opus Demo Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884537F31EE926B3003A9064 /* Debug */,
+				884537F41EE926B3003A9064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884537F51EE926B3003A9064 /* Build configuration list for PBXNativeTarget "Opus Demo Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884537F61EE926B3003A9064 /* Debug */,
+				884537F71EE926B3003A9064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884537F81EE926B3003A9064 /* Build configuration list for PBXNativeTarget "Opus Demo FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884537F91EE926B3003A9064 /* Debug */,
+				884537FA1EE926B3003A9064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884537FB1EE926B3003A9064 /* Build configuration list for PBXNativeTarget "Opus Demo FinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884537FC1EE926B3003A9064 /* Debug */,
+				884537FD1EE926B3003A9064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 884537C01EE926B2003A9064 /* Project object */;
+}
